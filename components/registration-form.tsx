@@ -76,7 +76,7 @@ export function RegistrationForm() {
       {/* WhatsApp */}
       <div className="animate-fade-in-up flex flex-col gap-2" style={{ animationDelay: "0.6s" }}>
         <label htmlFor="whatsapp" className="text-sm font-medium text-foreground">
-          WhatsApp <span className="text-xs text-muted-foreground">(opcional)</span>
+          WhatsApp <span className="text-xs text-muted-foreground">(seria interessante)</span>
         </label>
         <input
           type="tel"
