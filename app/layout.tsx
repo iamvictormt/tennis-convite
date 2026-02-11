@@ -7,8 +7,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'Convite Exclusivo - Torneios de Tenis',
-  description: 'Participe dos maiores torneios do tenis mundial. Exclusivo para apaixonados pelo esporte.',
+  title: 'Convite Exclusivo - Torneios de Tênis',
+  description: 'Participe dos maiores torneios do tênis mundial. Exclusivo para apaixonados pelo esporte.',
 }
 
 export const viewport: Viewport = {

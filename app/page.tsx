@@ -31,7 +31,7 @@ export default function Page() {
             style={{ animationDelay: "0.3s" }}
           >
             <p className="text-base text-muted-foreground">
-              Participe dos maiores torneios do tenis mundial
+              Participe dos maiores torneios do tênis mundial
             </p>
             <p className="text-sm text-muted-foreground/70">
               Exclusivo para apaixonados pelo esporte
@@ -47,7 +47,7 @@ export default function Page() {
           className="animate-fade-in mt-6 text-center text-xs text-muted-foreground/60"
           style={{ animationDelay: "1.1s" }}
         >
-          {"© 2025 \u2022 Torneios de Tenis"}
+          {"© 2026 \u2022 Torneios de Tênis."}
         </footer>
       </div>
     </main>

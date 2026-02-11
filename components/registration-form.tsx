@@ -61,7 +61,7 @@ export function RegistrationForm() {
       {/* Clube */}
       <div className="animate-fade-in-up flex flex-col gap-2" style={{ animationDelay: "0.5s" }}>
         <label htmlFor="clube" className="text-sm font-medium text-foreground">
-          Clube em que joga tenis <span className="text-primary">*</span>
+          Clube em que joga tênis <span className="text-primary">*</span>
         </label>
         <input
           type="text"
@@ -135,7 +135,7 @@ export function RegistrationForm() {
 
       {/* Required fields notice */}
       <p className="animate-fade-in text-center text-xs text-muted-foreground" style={{ animationDelay: "1s" }}>
-        Campos com <span className="text-primary">*</span> sao obrigatorios
+        Campos com <span className="text-primary">*</span> são obrigatórios
       </p>
     </form>
   )
