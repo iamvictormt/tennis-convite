@@ -1,7 +1,10 @@
-import { TrophyIcon } from "@/components/trophy-icon"
-import { RegistrationForm } from "@/components/registration-form"
+import { TrophyIcon } from '@/components/trophy-icon';
+import { RegistrationForm } from '@/components/registration-form';
+import { redirect } from 'next/navigation';
 
 export default function Page() {
+  redirect('https://www.tennispool.com.br/cadastro');
+
   return (
     <main className="flex min-h-screen items-center justify-center bg-background px-4 py-10">
       <div className="w-full max-w-md">
@@ -13,29 +16,22 @@ export default function Page() {
 
           <p
             className="animate-fade-in text-sm font-medium tracking-wider text-primary"
-            style={{ animationDelay: "0.15s" }}
+            style={{ animationDelay: '0.15s' }}
           >
-            {"✨ CONVITE EXCLUSIVO ✨"}
+            {'✨ CONVITE EXCLUSIVO ✨'}
           </p>
 
-          <div className="animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+          <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <h1 className="text-balance text-4xl font-extrabold leading-tight tracking-tight text-foreground md:text-5xl">
               Algo Grandioso
               <br />
-              <span className="text-primary">{"Esta Sendo Criado"}</span>
+              <span className="text-primary">{'Esta Sendo Criado'}</span>
             </h1>
           </div>
 
-          <div
-            className="animate-fade-in-up flex flex-col gap-1"
-            style={{ animationDelay: "0.3s" }}
-          >
-            <p className="text-base text-muted-foreground">
-              Participe dos maiores torneios do tênis mundial
-            </p>
-            <p className="text-sm text-muted-foreground/70">
-              Exclusivo para apaixonados pelo esporte
-            </p>
+          <div className="animate-fade-in-up flex flex-col gap-1" style={{ animationDelay: '0.3s' }}>
+            <p className="text-base text-muted-foreground">Participe dos maiores torneios do tênis mundial</p>
+            <p className="text-sm text-muted-foreground/70">Exclusivo para apaixonados pelo esporte</p>
           </div>
         </header>
 
@@ -45,11 +41,11 @@ export default function Page() {
         {/* Footer */}
         <footer
           className="animate-fade-in mt-6 text-center text-xs text-muted-foreground/60"
-          style={{ animationDelay: "1.1s" }}
+          style={{ animationDelay: '1.1s' }}
         >
-          {"© 2026 \u2022 Torneios de Tênis."}
+          {'© 2026 \u2022 Torneios de Tênis.'}
         </footer>
       </div>
     </main>
-  )
+  );
 }
