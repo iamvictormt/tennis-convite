@@ -3,7 +3,7 @@ import { RegistrationForm } from '@/components/registration-form';
 import { redirect } from 'next/navigation';
 
 export default function Page() {
-  redirect('https://www.tennispool.com.br/cadastro');
+  redirect('https://www.tennispool.com.br');
 
   return (
     <main className="flex min-h-screen items-center justify-center bg-background px-4 py-10">
